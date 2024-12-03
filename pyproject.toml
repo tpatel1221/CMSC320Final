@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cmsc320final"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter-book = "^1.0.3"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+polars = "^1.16.0"
+altair = "^5.5.0"
+plotly = "^5.24.1"
+ghp-import = "^2.1.0"
+vega-datasets = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
